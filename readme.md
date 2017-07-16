@@ -1,7 +1,7 @@
 # Instalation:
 (1) Install Dependencies:
 ```
-git clone https://github.com/hos4m/shooooort.git
+git clone https://github.com/hos4m/shooooort
 
 yarn
 (or: npm install)
