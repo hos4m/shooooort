@@ -1,4 +1,4 @@
-# Instalation:
+# Installation:
 (1) Install Dependencies:
 ```
 git clone https://github.com/hos4m/shooooort
@@ -14,7 +14,7 @@ yarn run dev
 http://localhost:8080/
 ```
 
-(3) To complite the development code to production code:
+(3) To compile the development code to production code:
 ```
 yarn run build
 (or: npm run build)
