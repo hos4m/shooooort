@@ -11,6 +11,7 @@ yarn
 ```
 yarn run dev
 (or: npm run dev)
+http://localhost:8080/
 ```
 
 (3) To complite the development code to production code:
