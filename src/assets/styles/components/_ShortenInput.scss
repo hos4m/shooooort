@@ -1,0 +1,23 @@
+.ShortenInput {
+  margin-top: 55px;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  input[type=text] {
+    width: 100%;
+    margin-right: 15px;
+  }
+}

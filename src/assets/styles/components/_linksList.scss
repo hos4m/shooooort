@@ -1,0 +1,66 @@
+.linksList {
+  margin-top: 80px;
+
+  header {
+    h2 {
+      font-family: 'Roboto-Light';
+      font-size: 22px;
+      display: inline-block;
+    }
+
+    span {
+      color: $accentColor;
+      margin-left: 25px;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__table {
+    margin-top: 40px;
+
+    tr {
+      border-bottom: 40px solid transparent; // A hack for applying a bottom space after a table tr
+    }
+
+    th {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: $secondryTextColor;
+      font-weight: normal;
+    }
+
+    .firstColumn {
+      width: 60%;
+    }
+
+    .normalColumn {
+      width: 20%;
+    }
+
+    td {
+      .shortenedLink {
+        display: inline-block;
+        color: $primaryTextColor;
+        cursor: pointer;
+
+        span {
+          color: $accentColor;
+          font-style: normal;
+        }
+      }
+
+      .fullLink {
+        color: $unimportantTextColor;
+      }
+    }
+  }
+
+  .noSavedLinksNote {
+    margin-top: 40px;
+    color: $secondryTextColor;
+  }
+}

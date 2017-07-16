@@ -1,0 +1,48 @@
+.row,
+h1, h2, h3, h4, h5, h6,
+ul, li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-input-placeholder {
+  color: $unimportantTextColor;
+}
+::-moz-placeholder {
+  color: $unimportantTextColor;
+}
+:-ms-input-placeholder {
+  color: $unimportantTextColor;
+}
+:-moz-placeholder {
+  color: $unimportantTextColor;
+}
+
+.center-block {
+  float: none;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 0;
+  border: none;
+}
+
+.swal2-modal {
+  font-family: inherit;
+
+  .swal2-buttonswrapper {
+    .swal2-confirm {
+      margin-right: 5px;
+    }
+
+    .swal2-cancel {
+      margin-left: 5px;
+    }
+  }
+}

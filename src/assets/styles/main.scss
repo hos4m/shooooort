@@ -1,0 +1,25 @@
+/* 1. Configuration and Helpers */
+@import
+  'abstracts/variables';
+
+/* 2. Vendors */
+@import
+  'vendors/bootstrap',
+  '../../../node_modules/sweetalert2/dist/sweetalert2';
+
+/* 3. Base Stuff */
+@import
+  'base/reset',
+  'base/fonts',
+  'base/base';
+
+/* 4. Layout-related Sections */
+@import
+  'layout/header';
+
+/* 5. Components */
+@import
+  'components/inputs',
+  'components/button',
+  'components/ShortenInput',
+  'components/linksList';

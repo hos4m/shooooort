@@ -1,0 +1,38 @@
+header#header {
+  margin-top: 100px;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+
+  h1 {
+    font-family: 'Montserrat-Regular';
+    font-size: 47px;
+    letter-spacing: 1px;
+    border-bottom: 5px solid $accentColor;
+
+    a {
+      color: $accentColor;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  span {
+    font-family: 'Roboto-Light';
+    color: $secondryTextColor;
+  }
+}

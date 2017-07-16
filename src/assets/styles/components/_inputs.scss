@@ -1,0 +1,22 @@
+input {
+  padding: 14px 18px;
+  border: none;
+  border-radius: $borderRadiusSize;
+
+  &:focus {
+    outline: none;
+  }
+
+  &[type=text] {
+    background-color: $lightBg;
+  }
+
+  &[type=submit] {
+    background-color: $accentColor;
+    color: #FFF;
+  }
+
+  &:disabled {
+    background-color: $disabledButtonBG;
+  }
+}
